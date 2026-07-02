@@ -1,0 +1,35 @@
+# Virtual Environment
+venv/
+env/
+__pycache__/
+
+# Data (DO NOT UPLOAD)
+data/raw/
+data/processed/
+data/manifests/*.csv
+
+# Models (Upload only the best one manually)
+models/checkpoints/
+models/exported/
+models/thresholds/
+
+# Artifacts (Logs and images)
+artifacts/logs/
+artifacts/heatmaps/
+artifacts/reports/
+
+# MLflow
+mlruns/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment
+.env
+.env.example
+
+# Python
+*.pyc
+*.pyo
+*.pyd
